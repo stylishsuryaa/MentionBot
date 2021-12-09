@@ -45,7 +45,7 @@ async def start(event):
                     
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ ᴀsᴀᴅ ᴀʟᴇxᴀ**\n\n**ᴄᴏᴍᴍᴀɴᴅ**: /mentionall\n**__Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.__**\n`Example: /mentionall Good Morning!`\n**Yᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ. Bᴏᴛ ᴡɪʟʟ ᴛᴀɢ ᴜsᴇʀs ᴛᴏ ᴛʜᴀᴛ ʀᴇᴘʟɪᴇᴅ ᴍᴇsssᴀɢᴇ__**."
+  helptext = "**ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ ᴀsᴀᴅ ᴀʟᴇxᴀ**\n\n**ᴄᴏᴍᴍᴀɴᴅ**: /mentionall\n**ᴄᴏᴍᴍᴀɴᴅ**: /cancel **ᴛᴏ ᴄᴀɴᴄᴇʟ ɢᴏɪɴɢ ᴏɴ ᴘʀᴏᴄᴇss**\n**__Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.__**\n`Example: /mentionall Good Morning!`\n**Yᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ. Bᴏᴛ ᴡɪʟʟ ᴛᴀɢ ᴜsᴇʀs ᴛᴏ ᴛʜᴀᴛ ʀᴇᴘʟɪᴇᴅ ᴍᴇsssᴀɢᴇ__**."
   await event.reply(
     helptext,
     link_preview=False,
