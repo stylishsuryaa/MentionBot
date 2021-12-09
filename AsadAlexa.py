@@ -24,7 +24,7 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**I'm MentionAll Bot**, I can mention almost all members in group or channel 👻\nClick **/help** for more information__\n\n Follow [@AnjanaMadu](https://github.com/AnjanaMadu) on Github",
+    "**ʜᴇʟʟᴏ sᴡᴇᴇᴛ ʜᴇᴀʀᴛ ɪ ᴀᴍ ᴀsᴀᴅ ᴀʟᴇxᴀ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ** 👻\n**ᴄʟɪᴄᴋ ᴏɴ** /help **ғᴏʀ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏsᴇʟғ**\n\n**ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ** [ʟᴏᴠᴇ](https://t.me/Give_Me_Heart) **ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ**",
     link_preview=False,
     buttons=(
       [
@@ -45,7 +45,7 @@ async def start(event):
                     
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ ᴀsᴀᴅ ᴀʟᴇxᴀ**\n\n**ᴄᴏᴍᴍᴀɴᴅ**: /mentionall\n**__Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.__**\n`Example: /mentionall Good Morning!`\n**__You can you this command as a reply to any message. Bot will tag users to that replied messsage__**."
+  helptext = "**ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ ᴀsᴀᴅ ᴀʟᴇxᴀ**\n\n**ᴄᴏᴍᴍᴀɴᴅ**: /mentionall\n**__Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.__**\n`Example: /mentionall Good Morning!`\n**Yᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ. Bᴏᴛ ᴡɪʟʟ ᴛᴀɢ ᴜsᴇʀs ᴛᴏ ᴛʜᴀᴛ ʀᴇᴘʟɪᴇᴅ ᴍᴇsssᴀɢᴇ__**."
   await event.reply(
     helptext,
     link_preview=False,
@@ -59,7 +59,7 @@ async def help(event):
 
 @client.on(events.NewMessage(pattern="^/owner$"))
 async def help(event):
-  helptext = "**ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀsᴀᴅ ᴀʟᴇxᴀ**\n\n**ᴍʏ ᴏᴡɴᴇʀ ɪs [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)**\n**__ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʀᴏᴄᴋs__**\n**ʏᴏᴜᴛᴜʙᴇ [ᴄʜᴀɴɴᴇʟ](https://www.youtube.com/c/JankariKiDuniya)**\n**ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ**."
+  helptext = "**ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀsᴀᴅ ᴀʟᴇxᴀ**\n\n**ᴍʏ ᴏᴡɴᴇʀ ɪs [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)**\n**__ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʀᴏᴄᴋs__**\n**ʏᴏᴜᴛᴜʙᴇ** [ᴄʜᴀɴɴᴇʟ](https://www.youtube.com/c/JankariKiDuniya)\n**ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ**."
   await event.reply(
     helptext,
     link_preview=False,
