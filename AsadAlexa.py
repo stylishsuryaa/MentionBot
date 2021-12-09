@@ -34,7 +34,7 @@ async def start(event):
                 [
                     InlineKeyboardButton(
                         "⚙️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚙️",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        url=f"https://t.me/Alexa_MentionBot?startgroup=true",
                     )
                 ],
                 [
@@ -50,7 +50,7 @@ async def start(event):
                         "👸 ǫᴜᴇᴇɴ 👸︎", url=f"https://t.me/Sonali_rajputt_Queen_Of_ROCKS"
                     ),
                     InlineKeyboardButton(
-                        "❤️ ʙʀᴏ ❤️", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "❤️ ʙʀᴏ ❤️", url=f"https://t.me/HarshitSharma361"
                     ),
                 ],
                 [
