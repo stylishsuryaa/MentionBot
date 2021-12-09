@@ -1,1 +1,1 @@
-bot: python3 AsadAlexa
+AsadAlexa: python3 AsadAlexa
