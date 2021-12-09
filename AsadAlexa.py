@@ -23,7 +23,7 @@ spam_chats = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await message.reply_photo(
+  await event.reply_photo(
         photo=f"https://telegra.ph/file/cb76d7f5dae14ec1e11c7.jpg",
         caption=f"""**ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ ᴛʜᴀᴛ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴜᴘᴛᴏ 10ᴋ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴍʙᴇʀs ᴇᴀsʟʏ ...
 💞 ᴛʜᴀɴᴋꜱ ꜰᴏʀ  
@@ -79,7 +79,7 @@ async def help(event):
 
 @client.on(events.NewMessage(pattern="^/owner$"))
 async def help(event):
-  helptext = "**ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀsᴀᴅ ᴀʟᴇxᴀ**\n\n**ᴍʏ ᴏᴡɴᴇʀ ɪs [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)**\n**__ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʀᴏᴄᴋs__**\n**ʏᴏᴜᴛᴜʙᴇ [ᴄʜᴀɴɴᴇʟ](https://www.youtube.com/c/JankariKiDuniya)\n**__ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ__**."
+  helptext = "**ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀsᴀᴅ ᴀʟᴇxᴀ**\n\n**ᴍʏ ᴏᴡɴᴇʀ ɪs [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)**\n**__ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʀᴏᴄᴋs__**\n**ʏᴏᴜᴛᴜʙᴇ [ᴄʜᴀɴɴᴇʟ](https://www.youtube.com/c/JankariKiDuniya)**\n**ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ**."
   await event.reply(
     helptext,
     link_preview=False,
