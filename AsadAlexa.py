@@ -24,42 +24,23 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**ᴀsᴀᴅ ᴀʟᴇxᴀ ɪs ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ ᴛʜᴀᴛ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴜᴘᴛᴏ 10ᴋ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴍʙᴇʀs ᴇᴀsʟʏ** 👻\n**💞 ᴛʜᴀɴᴋꜱ ꜰoʀ ᴜsɪɴɢ ᴍᴇ\n\n**ᴀɴᴅ ʏᴏᴜʀ ʟᴏᴠᴇ ❤️[ᴀsᴀᴅ ᴀʟᴇxᴀ](t.me/Alexa_MentionBot).\nᴍʏ [ᴅᴇᴠᴇʟᴏᴘᴇʀ](t.me/Dr_Asad_Ali) ᴍʏ [sᴜᴘᴘᴏʀᴛᴇʀ](t.me/HarshitSharma361)\n
-**",
+    "__**I'm MentionAll Bot**, I can mention almost all members in group or channel 👻\nClick **/help** for more information__\n\n Follow [@AnjanaMadu](https://github.com/AnjanaMadu) on Github",
     link_preview=False,
-    reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "⚙️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚙️",
-                        url=f"https://t.me/Alexa_MentionBot?startgroup=true",
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "👥 ɢʀᴏᴜᴘ 👥︎", url=f"https://t.me/Shayri_Music_Lovers"
-                    ),
-                    InlineKeyboardButton(
-                        "📣 ᴄʜᴀɴɴᴇʟ 📣", url=f"https://t.me/AsadSupport"
-                    ),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "👸 ǫᴜᴇᴇɴ 👸︎", url=f"https://t.me/Sonali_rajputt_Queen_Of_ROCKS"
-                    ),
-                    InlineKeyboardButton(
-                        "❤️ ʙʀᴏ ❤️", url=f"https://t.me/HarshitSharma361"
-                    ),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "👑 ᴋɪɴɢ 👑", url="https://t.me/Dr_Asad_Ali"
-                    )
-                ],
-            ]
-        ),
-        disable_web_page_preview=True,
+    buttons=(
+      [
+        Button.url('⚙️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚙️', 'https://t.me/Alexa_MentionBot?startgroup=true'),
+        Button.url('👥 ɢʀᴏᴜᴘ 👥︎', 'https://t.me/Shayri_Music_Lovers'),
+        ],
+        [
+        Button.url('📣 ᴄʜᴀɴɴᴇʟ 📣️', 'https://t.me/AsadSupport'),
+        Button.url('👸 ǫᴜᴇᴇɴ 👸︎', 'https://t.me/Sonali_rajputt_Queen_Of_ROCKS'),
+        ],
+        [
+        Button.url('❤️ ʙʀᴏ ❤️️', 'https://t.me/HarshitSharma361'),
+        Button.url('👑 ᴋɪɴɢ 👑︎', 'https://t.me/Dr_Asad_Ali'),
+      ]
     )
+  )
                     
                     
 @client.on(events.NewMessage(pattern="^/help$"))
