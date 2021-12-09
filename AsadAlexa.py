@@ -21,7 +21,7 @@ bot_token = os.environ.get("TOKEN")
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 spam_chats = []
 
-@Client.on_message(command("start") & filters.private & ~filters.edited)
+@client.on(events.NewMessage(pattern="^/start$"))
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/cb76d7f5dae14ec1e11c7.jpg",
