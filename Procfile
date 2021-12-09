@@ -1,1 +1,1 @@
-AsadAlexa: python3 AsadAlexa
+worker: python3 -m AsadAlexa
