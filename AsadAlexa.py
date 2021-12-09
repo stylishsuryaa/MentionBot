@@ -23,7 +23,7 @@ spam_chats = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply_photo(
+  await event.reply(
         photo=f"https://telegra.ph/file/cb76d7f5dae14ec1e11c7.jpg",
         caption=f"""**ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ ᴛʜᴀᴛ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴜᴘᴛᴏ 10ᴋ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴍʙᴇʀs ᴇᴀsʟʏ ...
 💞 ᴛʜᴀɴᴋꜱ ꜰᴏʀ  
