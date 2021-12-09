@@ -22,13 +22,12 @@ client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 spam_chats = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
-async def start_(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/cb76d7f5dae14ec1e11c7.jpg",
-        caption=f"""**ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ ᴛʜᴀᴛ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴜᴘᴛᴏ 10ᴋ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴍʙᴇʀs ᴇᴀsʟʏ ...
+async def start(event):
+  await event.reply(
+    "**[ᴀsᴀᴅ ᴀʟᴇxᴀ](https://telegra.ph/file/cb76d7f5dae14ec1e11c7.jpg) ɪs ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ ᴛʜᴀᴛ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴜᴘᴛᴏ 10ᴋ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴍʙᴇʀs ᴇᴀsʟʏ ...
 💞 ᴛʜᴀɴᴋꜱ ꜰᴏʀ  
 ᴜꜱɪɴɢ ᴀɴᴅ ʏᴏᴜʀ ʟᴏᴠᴇ ❤️[ᴀsᴀᴅ ᴀʟᴇxᴀ](t.me/Alexa_MentionBot).\nᴍʏ [ᴅᴇᴠᴇʟᴏᴘᴇʀ](t.me/Dr_Asad_Ali) ᴍʏ [sᴜᴘᴘᴏʀᴛᴇʀ](t.me/HarshitSharma361)\n
-**""",
+**",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
