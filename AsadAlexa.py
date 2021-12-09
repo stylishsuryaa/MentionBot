@@ -24,10 +24,9 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "**[ᴀsᴀᴅ ᴀʟᴇxᴀ](https://telegra.ph/file/cb76d7f5dae14ec1e11c7.jpg) ɪs ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ ᴛʜᴀᴛ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴜᴘᴛᴏ 10ᴋ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴍʙᴇʀs ᴇᴀsʟʏ ...
-💞 ᴛʜᴀɴᴋꜱ ꜰᴏʀ  
-ᴜꜱɪɴɢ ᴀɴᴅ ʏᴏᴜʀ ʟᴏᴠᴇ ❤️[ᴀsᴀᴅ ᴀʟᴇxᴀ](t.me/Alexa_MentionBot).\nᴍʏ [ᴅᴇᴠᴇʟᴏᴘᴇʀ](t.me/Dr_Asad_Ali) ᴍʏ [sᴜᴘᴘᴏʀᴛᴇʀ](t.me/HarshitSharma361)\n
+    "__**[ᴀsᴀᴅ ᴀʟᴇxᴀ](https://telegra.ph/file/cb76d7f5dae14ec1e11c7.jpg) ɪs ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ ᴛʜᴀᴛ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴜᴘᴛᴏ 10ᴋ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴍʙᴇʀs ᴇᴀsʟʏ** 👻\n**💞 ᴛʜᴀɴᴋꜱ ꜰoʀ ᴜsɪɴɢ ᴍᴇ\n\n**ᴀɴᴅ ʏᴏᴜʀ ʟᴏᴠᴇ ❤️[ᴀsᴀᴅ ᴀʟᴇxᴀ](t.me/Alexa_MentionBot).\nᴍʏ [ᴅᴇᴠᴇʟᴏᴘᴇʀ](t.me/Dr_Asad_Ali) ᴍʏ [sᴜᴘᴘᴏʀᴛᴇʀ](t.me/HarshitSharma361)\n
 **",
+    link_preview=False,
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -61,7 +60,8 @@ async def start(event):
         ),
         disable_web_page_preview=True,
     )
-
+                    
+                    
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
   helptext = "**ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ ᴀsᴀᴅ ᴀʟᴇxᴀ**\n\n**ᴄᴏᴍᴍᴀɴᴅ**: /mentionall\n**__Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.__**\n`Example: /mentionall Good Morning!`\n**__You can you this command as a reply to any message. Bot will tag users to that replied messsage__**."
