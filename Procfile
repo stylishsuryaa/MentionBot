@@ -1,1 +1,1 @@
-worker: python3 -m AsadAlexa
+worker: python3 -m MentionBot
