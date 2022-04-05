@@ -1,1 +1,1 @@
-worker: python3 -m MentionBot
+worker: python3 -m Bot
