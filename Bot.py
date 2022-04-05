@@ -29,9 +29,11 @@ bot_token = os.environ.get("TOKEN")
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 spam_chats = []
 
-@client.on(events.NewMessage(pattern="^/start$") & filters.private & ~filters.edited)
-async def start(event):
-  await event.reply(
+@Client.on_message(
+    command("^/start$") & filters.private & ~filters.edited
+)
+async def start_(client: Client, message: Message):
+    await message.reply_text(
     "**ʜᴇʟʟᴏ sᴡᴇᴇᴛ ʜᴇᴀʀᴛ ɪ ᴀᴍ ᴀsᴀᴅ ᴀʟᴇxᴀ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ** 👻\n**ᴄʟɪᴄᴋ ᴏɴ** /help **ғᴏʀ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏsᴇʟғ**\n\n**ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ** [ʟᴏᴠᴇ](https://t.me/Give_Me_Heart) **ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ**",
     link_preview=False,
     buttons=(
@@ -51,7 +53,7 @@ async def start(event):
   )
                     
                     
-@client.on(events.NewMessage(pattern="^/help$") & filters.private & ~filters.edited)
+@client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
   helptext = "**ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ ᴀsᴀᴅ ᴀʟᴇxᴀ**\n\n**ᴄᴏᴍᴍᴀɴᴅ**: /mentionall\n**ᴄᴏᴍᴍᴀɴᴅ**: /cancel **ᴛᴏ ᴄᴀɴᴄᴇʟ ɢᴏɪɴɢ ᴏɴ ᴘʀᴏᴄᴇss**\n**__Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.__**\n`Example: /mentionall Good Morning!`\n**Yᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ. Bᴏᴛ ᴡɪʟʟ ᴛᴀɢ ᴜsᴇʀs ᴛᴏ ᴛʜᴀᴛ ʀᴇᴘʟɪᴇᴅ ᴍᴇsssᴀɢᴇ__**."
   await event.reply(
@@ -65,7 +67,7 @@ async def help(event):
     )
   )
 
-@client.on(events.NewMessage(pattern="^/owner$") & filters.private & ~filters.edited)
+@client.on(events.NewMessage(pattern="^/owner$"))
 async def help(event):
   helptext = "**ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀsᴀᴅ ᴀʟᴇxᴀ**\n\n**ᴍʏ ᴏᴡɴᴇʀ ɪs [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)**\n**__ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʀᴏᴄᴋs__**\n**ʏᴏᴜᴛᴜʙᴇ** [ᴄʜᴀɴɴᴇʟ](https://www.youtube.com/c/JankariKiDuniya)\n**ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ**."
   await event.reply(
@@ -80,7 +82,7 @@ async def help(event):
   )
 
   
-@client.on(events.NewMessage(pattern="^/mentionall ?(.*)") & filters.private & ~filters.edited)
+@client.on(events.NewMessage(pattern="^/mentionall ?(.*)"))
 async def mentionall(event):
   chat_id = event.chat_id
   if event.is_private:
@@ -143,7 +145,7 @@ async def mentionall(event):
   except:
     pass
 
-@client.on(events.NewMessage(pattern="^/cancel$") & filters.private & ~filters.edited)
+@client.on(events.NewMessage(pattern="^/cancel$"))
 async def cancel_spam(event):
   if not event.chat_id in spam_chats:
     return await event.respond('__There is no proccess on going...__')
