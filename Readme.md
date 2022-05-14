@@ -13,9 +13,9 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-> ⭐️ Thanks to everyone for using Asad Alexa, That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone for using Tamil Mention, That is the greatest pleasure we have !
 
-## Avaiilable on Telegram as [@AsadSupport](https://t.me/Alexa_MentionBot)
+## Avaiilable on Telegram as [mafiaking_fed](https://t.me/Tg_tamil_mention_bot)
 
 ## ✨ Easy To Deploy Direct In Repo✨
 
@@ -27,7 +27,7 @@ The Easiest Way To Deploy This Bot Direct From GitHub
 
 The Easiest Way To Deploy This On Heroku For Any Browser Copy Link Supported
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/jankarikiduniya/MentionBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/stylishsuryaa/MentionBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
  
  
 # ❤️ Support
@@ -38,6 +38,6 @@ The Easiest Way To Deploy This On Heroku For Any Browser Copy Link Supported
 
 ## CREDITS
 
-- [Asad Ali](https://t.me/Dr_Asad_Ali)
+- [Suryaakumar](https://t.me/Suryaakumar)
 - [YouTube](https://www.youtube.com/c/JankariKiDuniya)
-- [Harshit Sharma](https://t.me/HarshitSharma361)
+- [IZZYYIR](https://t.me/OWNER_OF_TJ)
