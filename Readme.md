@@ -2,7 +2,7 @@
 
 <h4 align="center">MENTION BOT A Powerful, Smart And Simple And Smart Mention Bot <br> ... Written With Python and Telethon...</h4>
 
-<p align="center"><a href="https://t.me/Dr_Asad_Ali"><img src="https://telegra.ph/file/5ece62fb5d7f096c05099.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/Dr_Asad_Ali"><img src="https://telegra.ph/file/bbbd9b011a11544d321d8.jpg" width="400"></a></p>
 
 <p align="center">
     <a href="https://app.codacy.com/manual/jankarikiduniya/MentionBot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
