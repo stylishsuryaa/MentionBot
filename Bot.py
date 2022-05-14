@@ -44,7 +44,7 @@ async def start(event):
         Button.url('Owner', 'https://t.me/OWNER_OF_TJ'),
         ],
         [
-        Button.url('❤️ ʙʀᴏ ❤️️', 'https://t.me/Suryaakumar),
+        Button.url('❤️ ʙʀᴏ ❤️️', 'https://t.me/Suryaakumar'),
         Button.url('GROUP', 'https://t.me/Friendstamilchatting'),
       ]
     )
@@ -67,7 +67,7 @@ async def help(event):
 
 @client.on(events.NewMessage(pattern="^/owner$"))
 async def help(event):
-  helptext = "**ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ MENTION ROBOT**\n\n**ᴍʏ ᴏᴡɴᴇʀ ɪs [IZZYYIR](https://t.me/OWNER_OF_TJ)
+  helptext = "**ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ MENTION ROBOT**\n\n**ᴍʏ ᴏᴡɴᴇʀ ɪs [IZZYYIR](https://t.me/OWNER_OF_TJ')
   await event.reply(
     helptext,
     link_preview=False,
