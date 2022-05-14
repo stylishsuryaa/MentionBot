@@ -67,7 +67,7 @@ async def help(event):
 
 @client.on(events.NewMessage(pattern="^/owner$"))
 async def help(event):
-  helptext = "**ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ MENTION ROBOT**\n\n**ᴍʏ ᴏᴡɴᴇʀ ɪs [Izzyyir](https://t.me/OWNER_OF_TJ')
+  helptext = "**ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ MENTION ROBOT**\n\n**ᴍʏ ᴏᴡɴᴇʀ ɪs [Izzyyir]('https://t.me/OWNER_OF_TJ')
   await event.reply(
     helptext,
     link_preview=False,
