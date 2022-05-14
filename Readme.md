@@ -1,6 +1,6 @@
-<h1 align="center"><b>❤️ ASAD ALEXA MENTION ALL BOT ❤️</b></h1>
+<h1 align="center"><b>❤️ TAMIL MENTION ALL BOT ❤️</b></h1>
 
-<h4 align="center">Asad Alexa A Powerful, Smart And Simple And Smart Mention Bot <br> ... Written With Python and Telethon...</h4>
+<h4 align="center">MENTION BOT A Powerful, Smart And Simple And Smart Mention Bot <br> ... Written With Python and Telethon...</h4>
 
 <p align="center"><a href="https://t.me/Dr_Asad_Ali"><img src="https://telegra.ph/file/5ece62fb5d7f096c05099.jpg" width="400"></a></p>
 
@@ -15,7 +15,7 @@
 
 > ⭐️ Thanks to everyone for using Tamil Mention, That is the greatest pleasure we have !
 
-## Avaiilable on Telegram as [mafiaking_fed](https://t.me/Tg_tamil_mention_bot)
+## Avaiilable on Telegram as [mafiakings](https://t.me/mafiaking_fed)
 
 ## ✨ Easy To Deploy Direct In Repo✨
 
@@ -39,5 +39,5 @@ The Easiest Way To Deploy This On Heroku For Any Browser Copy Link Supported
 ## CREDITS
 
 - [Suryaakumar](https://t.me/Suryaakumar)
-- [YouTube](https://www.youtube.com/c/JankariKiDuniya)
+- [GROUP](https://t.me/mafia_kings_queens)
 - [IZZYYIR](https://t.me/OWNER_OF_TJ)
